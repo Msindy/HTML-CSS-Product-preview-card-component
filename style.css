@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(https://fonts.google.com/specimen/Montserrat);
+  font-weight: 500, 700;
+}
+@font-face {
+  font-family: "Fraunces";
+  src: url(https://fonts.google.com/specimen/Fraunces);
+  font-weight: 700;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px;
+  font-family: "Monteserrat";
+  font-weight: 500;
+  background-color: hsl(30, 38%, 92%);
+  position: relative;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 550px;
+  height: 50vh;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product-card {
+  height: 50vh;
+  width: 290px;
+}
+.text-box {
+  padding: 5px;
+  margin: 5px;
+  height: 50vh;
+}
+.text-card {
+  padding: 20px;
+  width: 240px;
+  line-height: 1.5;
+}
+p {
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
+  font-family: "Fraunces";
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+span {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-family: "Fraunces";
+  font-weight: 500;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Fraunces";
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px;
+  color: hsl(228, 12%, 48%);
+}
+h1 {
+  font-family: "Monteserrat";
+  font-weight: 700;
+  padding: 5px;
+  line-height: 0.8;
+  font-size: 2.3rem;
+  color: hsl(212, 21%, 14%);
+}
+#bold {
+  color: hsl(158, 36%, 37%);
+  font-family: "Monteserrat";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  width: 200px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+button:hover{
+  background-color:hsl(157, 55%, 12%);
+  cursor: pointer;
+}
